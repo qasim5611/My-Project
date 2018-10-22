@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>creat</title>
+   
+    <link href="file.css" type="text/css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+
+        <div class="main">
+
+<div class="left" id="ave">
+        <p style="font-size:13px">&nbsp;Project To-Do</p><br/>
+        <div id="color" onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'"  >&nbsp;&nbsp;&nbsp;<a href="Dashboard.html"><img src="images/ic_person_outline_black_18dp.png"  alt="notfound" />&nbsp; <sup  style="font-size:15px; width:20%">Dashboard</sup>     </a></div>
+        <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'" >&nbsp;&nbsp;&nbsp;<a href="edit.html" ><img src="images/ic_grade_black_18dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:50%">Edit </sup>     </a></div>
+         <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'"  style="">&nbsp;&nbsp;&nbsp;<a href="#3"><img src="images/ic_loyalty_black_18dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:20%">Tasks </sup>     </a></div>
+         <br/>
+         <hr/>
+         <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'" >&nbsp;&nbsp;&nbsp;<a href="#4"><img src="images/ic_reorder_black_24dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:20%">Tasks </sup>     </a></div>
+</div>
+
+
+
+
+
+
+
+<div class="right">
+        <p style="font-size:20px; margin-top: 30px; margin-left: 300px;"><font color="white">Add New Todo</font></p>
+        
+        <form onsubmit="check();">
+        <div style="height:70px; width:500px;  margin-left:90px; margin-top: -16px;">
+          <div style="height:30px; width:30px; float: left;margin-top: 28px; margin-left: 0px;padding-left: 30px;"><img   src="images/ic_border_color_white_18dp.png" /></div>
+                 <sup> <div class="row" style="border:0px;">
+                                  
+                          <div class="col s2" >
+                            <div class="row"  style="border:0px;">
+                              <div class="input-field col s2 ">
+                                <i class="material-icons prefix"></i>
+                                <input type="text" required="required"  id="one" class="autocomplete" name="com" style="width:400px; ">
+                                <label for="autocomplete-input"><font color="white">Title</font></label>
+                              </div>
+                            </div>
+                          </div></sup>
+                          
+                      </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div style="height:70px; width:500px;  margin-left:0px; margin-top: -20px;">
+                    <div style="height:30px; width:30px; float: left;margin-top: 28px; margin-left: 0px;padding-left: 30px;"><img   src="images/ic_room_white_18dp.png" /></div>
+                           <sup> <div class="row" style="border:0px;">
+                                            
+                                    <div class="col s2" >
+                                      <div class="row"  style="border:0px;">
+                                        <div class="input-field col s2 ">
+                                          <i class="material-icons prefix"></i>
+                                          <input type="text" required="required"  id="two" class="autocomplete" name="com" style="width:400px; ">
+                                          <label for="autocomplete-input"><font color="white">Location</font></label>
+                                        </div>
+                                      </div>
+                                    </div></sup>
+                                    
+                                </div>
+
+
+
+
+
+
+
+
+                                <div style="height:70px; width:500px; margin-left:0px; margin-top: -20px;">
+                                        <div style="height:30px; width:30px; float: left;margin-top: 28px; margin-left: 0px;padding-left: 30px;"><img   src="images/ic_border_color_white_18dp.png" /></div>
+                                               <sup> <div class="row" style="border:0px;">
+                                                                
+                                                        <div class="col s2" >
+                                                          <div class="row"  style="border:0px;">
+                                                            <div class="input-field col s2 ">
+                                                              <i class="material-icons prefix"></i>
+                                                              <input type="text" required="required"   id="three" class="autocomplete" name="com" style="width:400px; ">
+                                                              <label for="autocomplete-input"><font color="white">Description</font></label>
+                                                            </div>
+                                                          </div>
+                                                        </div></sup>
+                                                        
+                                                    </div>
+
+
+
+
+
+<input type="submit"   value="Add your things" style="height:30px; width:400px; margin-left:85px; font-size: 18px; color: ghostwhite; background-color:#64b5f6 "  />
+</form>
+</div>
+
+
+
+
+
+</div>
+
+<a href="#" onclick="dashboardChacge();" class="btn-floating btn-large waves-effect waves-light #64b5f6 blue lighten-2" style="margin-top:150px; margin-left: 530px; padding-top: 3px"><i class="material-icons"><img src="images/ic_control_point_black_18dp.png" /></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function go() {
+      
+      var title = autocomplete-input.value;
+      // var email = document.getElementById('email_field').value;
+      alert(title);
+  }
+</script>
+
+
+
+        <script type="text/javascript" src="Script.js"></script>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

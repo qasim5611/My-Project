@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dashBoard</title>
+   
+    <link href="dashbord.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+<body>
+
+        <div class="main">
+
+<div class="left" id="">
+        <p style="font-size:13px">&nbsp;Project To-Do</p><br/>
+        <div id="color" onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'"  >&nbsp;&nbsp;&nbsp;<a href="creat.html"><img src="images/ic_person_outline_black_18dp.png"  alt="notfound" />&nbsp; <sup  style="font-size:15px; width:20%">Create Todo </sup>     </a></div>
+        <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'" >&nbsp;&nbsp;&nbsp;<a onclick="retrive();" href="edit.html"><img src="images/ic_grade_black_18dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:50%">Edit Todo </sup>     </a></div>
+         <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'" onclick="retrive();"  style="">&nbsp;&nbsp;&nbsp;<a href="#3"><img src="images/ic_visibility_black_18dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:20%">Recently Todo</sup>     </a></div>
+         <br/>
+         <hr/>
+         <br/>
+         <div onmouseover="this.style.backgroundColor='darkturquoise'"; onmouseout="this.style.backgroundColor='white'" >&nbsp;&nbsp;&nbsp;<a href="#4"><img src="images/ic_reorder_black_24dp.png" alt="notfound" />&nbsp; <sup style="font-size:15px;width:20%">Tasks </sup>     </a></div>
+</div>
+
+
+
+
+<div class="right">
+
+<div id="rghtUp"  style="background:darkturquoise; height:100px; position: relative;">
+    <p id="showTitleOnDashboard"  style="position:absolute; margin-left: 20px;font-size: 30px; text-shadow: 2px 2px #b510f7;">Dash Board <br/> <font size="5px;">ToDay</font></p>
+</div>
+
+
+<div id="rghtDown"   style="background: #673ab7;  height: 500px; position: relative; overflow: scroll;">
+ 
+  <!--Box show in dash board-->
+  
+  <div id="hide"  style="border-top-right-radius: 25%; border-bottom-left-radius: 25% ; position: absolute;width:650px; height: 100px; box-shadow: inset 0 0 20px #7cbbd4; margin-top: 5px; margin-left: 25px">
+        <form action="#" style="padding-top:10px; margin-left: 10px;">   
+                <input type="checkbox" id="cbox3" value="third_checkbox" style="margin-top:0px;display: inline;"> 
+                <label for="cbox3" id="abc" > yourcurrentTitle </label><br>
+        <input type="button" onclick="Finish();"  name="btn" value="X"  style="margin-left:600px;" />
+              </form>            
+</div>
+
+
+
+<!--<div style="height:100px; width:650px; background-color: rgb(20, 17, 180); margin-left: 20px ;margin-top: 10px; position: absolute"></div>
+
+<div style="height:100px; width:650px; background-color: green; margin-left: 20px ;margin-top: 120px; position: absolute"></div>
+-->
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="Script.js"></script>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

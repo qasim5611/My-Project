@@ -1,0 +1,43 @@
+
+.main{
+    height: 600px;
+    width: 1000px;
+    border: 1px blue solid;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+}
+.left{
+    height: 600px;
+    width: 300px;
+    border-right: 1px black solid;
+    
+    
+}
+.right{
+    height: 600px;
+    width: 700px;
+    background: red;
+}
+
+
+
+
+
+label {
+    font-size: 1.5em;
+  }
+  
+  input[type=checkbox]:checked + label {
+    color:red;
+    text-decoration: line-through;
+  } /*This is the MDN spec for doing this*/
+  
+  #cbox3 {
+    color:blue;
+    text-decoration: line-through;
+  }
+ .hidden{
+     display: none;
+ }
+ 
